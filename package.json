@@ -23,6 +23,7 @@
     "lint": "eslint src --ext .ts,.tsx"
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "1.0.0",
     "@hookform/resolvers": "2.9.7",
     "phosphor-react": "1.4.1",
     "react": "18.2.0",
