@@ -53,7 +53,7 @@
 
 ## Sobre
 
-Aplicação de timmer de tarefas desenvolvida em React.js com o Vite e Typescript, afim de iniciar, interromper e visualizar histórico de ciclos de tarefas.
+Aplicação para o controle de despesas desenvolvida em React.js com o Vite e Typescript, afim de listar e cadastrar entradas e saídas monetárias.
 
 ## Requisitos e funcionalidades
 
