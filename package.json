@@ -21,7 +21,8 @@
     "dev:server": "json-server server.json -p 3333 -w -d 500",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint src --ext .ts,.tsx"
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --ext .tsx,.ts --fix"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "1.0.0",
