@@ -27,11 +27,23 @@
   <a target="_blank" href="https://zod.dev/">
     <img src="https://img.shields.io/static/v1?style=plastic&color=red&label=Zod&message=TS&logo=zod" alt="Zod" />
   </a>
+  <a target="_blank" href="https://axios-http.com/ptbr/docs/intro">
+    <img src="https://img.shields.io/static/v1?style=plastic&color=red&label=Axios&message=TS&logo=axios" alt="Axios" />
+  </a>
+  <a target="_blank" href="https://www.radix-ui.com/">
+    <img src="https://img.shields.io/static/v1?style=plastic&color=red&label=RadixUI&message=TS&logo=radixui" alt="RadixUI" />
+  </a>
   <a target="_blank" href="https://phosphoricons.com/">
     <img src="https://img.shields.io/static/v1?style=plastic&color=red&label=Phosphoricons&message=TS&logo=phosphoricons" alt="Phosphoricons" />
   </a>
+  <a target="_blank" href="https://eslint.org/">
+    <img src="https://img.shields.io/static/v1?style=plastic&color=red&label=ESLint&message=JS&logo=eslint" alt="ESLint" />
+  </a>
   <a target="_blank" href="https://vite.dev/">
     <img src="https://img.shields.io/static/v1?style=plastic&color=red&label=Vite&message=TS&logo=vite" alt="Vite" />
+  </a>
+  <a target="_blank" href="https://www.npmjs.com/package/json-server">
+    <img src="https://img.shields.io/static/v1?style=plastic&color=red&label=JSONServer&message=Server" alt="JSONServer" />
   </a>
 </p>
 
@@ -57,7 +69,10 @@ Aplicação para o controle de despesas desenvolvida em React.js com o Vite e Ty
 
 ## Requisitos e funcionalidades
 
-- [ ] 1;
+- [x] Deve ser possível criar uma transação do tipo entrada ou saída;
+- [x] Deve ser possível visualizar o total de entradas, saídas e a diferença entre entradas e saídas.
+- [x] Deve ser possível filtrar as transações
+- [x] Deve ser aplicada práticas para otimização da performance
 
 ## Como executar
 
@@ -75,11 +90,17 @@ pnpm install
 
 ### Localmente
 
+Iniciar o servidor
+
+```bash
+pnpm dev:server
+```
+
 ```bash
 pnpm dev
 ```
 
-A aplicação estará disponível em http://localhost:3000.
+A aplicação estará disponível em http://localhost:5173.
 
 ## Tecnologias
 
@@ -87,8 +108,12 @@ A aplicação estará disponível em http://localhost:3000.
 - [Typescript](https://www.typescriptlang.org/)
 - [ReactHookForm](https://react-hook-form.com/)
 - [Zod](https://zod.dev/)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
+- [RadixUI](https://www.radix-ui.com/)
 - [Phosphoricons](https://phosphoricons.com/)
+- [ESLint](https://eslint.org/)
 - [Vite](https://vite.dev/)
+- [JSONServer](https://www.npmjs.com/package/json-server)
 - [StyledComponents](https://styled-components.com/)
 
 > **DICA !**
